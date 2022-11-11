@@ -1,7 +1,6 @@
 import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
-import { CSSReset } from "../source/components/CSSReset";
 import Menu  from "../source/components/Menu/"
 import {StyledTimeline} from "../source/components/Timeline";
 
@@ -14,7 +13,7 @@ function HomePage() {
 
   return (
     <>
-    <CSSReset/>
+   
       <div>
         <Menu valorFiltro={valorFiltro} setValorFiltro={setValorFiltro}/>
         <Header/>
@@ -32,6 +31,9 @@ export default HomePage;
 // }
 
 const StyledHeader = styled.div`
+
+  background-color: ${({theme}) => theme.backgroundLevel1};
+
   img {
     width: 80px;
     height: 80px;
