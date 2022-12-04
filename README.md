@@ -1,5 +1,5 @@
 
-### Imersão React Alura 2022
+# Imersão React Alura 2022
 
 ## A aplicação consiste em replicar algumas das funcionalidades do site Youtube.
 
