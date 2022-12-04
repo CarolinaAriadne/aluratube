@@ -5,6 +5,8 @@
 
 ## Foram utilizadas as seguintes tecnologias: Node.js (para instalação das bibliotecas/frameworks), ReactJS, Next.JS, JavaScript, CSS, Styled-Components, Supabase e Vercel para deploy.
 
+## Acesso a aplicação: aluratube-blush-three.vercel.app/
+
 ## 📺🎵
 
 
